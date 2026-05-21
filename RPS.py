@@ -49,7 +49,7 @@ while True:
     else:
         if player_one_choice not in choices or player_two_choice not in choices:
             print('Invalid choice. I give up you can\'t read probably. IF YOU CAN READ THIS!\n'
-                  'YOU NEED TO START THE GAME AGAIN. GOD I HOPE HE CAN READ.....')
+                  'YOU NEED TO START THE GAME AGAIN. GOD I HOPE AL LEAST ONE OF THEM CAN READ.....')
             break
 
     if player_one_choice == 'r' and player_two_choice == 's':
