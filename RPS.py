@@ -1,4 +1,4 @@
-from random import randint
+import rando_generator as r
 computer_activation = ['y', 'n']
 computer = input("Would you play alone? [Y/N]:\n")
 player_one_choice = ''
@@ -34,7 +34,7 @@ while True:
             wrong_answers += 1
             continue
 
-    player_two_choice = randint(1, 3)
+    player_two_choice = r.rand(y=1)
 
     if player_two_choice == 1:
         player_two_choice = 'r'
